@@ -1,2 +1,2 @@
-# encurtaGO
-Encurtador de URL em GO
+# Encurta go
+Encurtador de URL na linguagem go
