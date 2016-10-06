@@ -139,3 +139,9 @@ func main() {
   logar("Iniciando servidor na porta %d...", *porta)
   log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", *porta), nil))
 }
+
+// mkdir $GOPATH/src/github.com/seniocaires/
+// cd $GOPATH/src/github.com/seniocaires/
+// git clone https://github.com/seniocaires/encurta-go.git
+// cd encurta-go
+// go run servidor.go
