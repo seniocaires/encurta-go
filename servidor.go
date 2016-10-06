@@ -145,3 +145,14 @@ func main() {
 // git clone https://github.com/seniocaires/encurta-go.git
 // cd encurta-go
 // go run servidor.go
+
+// encurtar
+// curl -v http://localhost:8888/api/encurtar -d https://github.com/seniocaires/encurta-go
+
+// acessar url encurtada
+// curl -v Location
+// exemplo: curl -v  http://localhost:8888/r/sLrCa
+
+// visualizar estatisticas
+// curl Link
+// exemplo: curl http://localhost:8888/api/stats/sLrCa
